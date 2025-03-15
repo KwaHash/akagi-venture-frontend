@@ -1,0 +1,44 @@
+@use './font';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html, body, h1, h2, h3, h4, p, ul, ol, li, dl, dt, dd, button {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #__nuxt, #__layout {
+  height: 100%;
+}
+
+body {
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: font.$gothic;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  appearance: none;
+  cursor: pointer;
+  box-shadow: none;
+  border: none;
+}

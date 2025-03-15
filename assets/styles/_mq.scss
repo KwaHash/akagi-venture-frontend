@@ -1,0 +1,54 @@
+// Device
+// iPhone6, SE(old): 320px
+// iPhone13: 375px
+// iPad (Mini): 768px
+// iPad Pro: 1024px
+
+$xs-view: "(max-width: 374px)";
+$sm-view-only: "(min-width: 375px) and (max-width: 767px)";
+$sm-view: "(max-width: 767px)";
+$md-view-only: "(min-width: 768px) and (max-width: 1024px)";
+$md-view: "(max-width: 1024px)";
+$lg-view-only: "(min-width: 1025px)";
+
+
+@mixin respond-to($media) {
+  @media #{$media} {
+    @content
+  }
+}
+@mixin xsView {
+  @include respond-to($xs-view) {
+    @content
+  }
+}
+
+@mixin smViewOnly {
+  @include respond-to($sm-view-only) {
+    @content
+  }
+}
+
+@mixin smView {
+  @include respond-to($sm-view) {
+    @content
+  }
+}
+
+@mixin mdViewOnly {
+  @include respond-to($md-view-only) {
+    @content
+  }
+}
+
+@mixin mdView {
+  @include respond-to($md-view) {
+    @content
+  }
+}
+
+@mixin lgViewOnly {
+  @include respond-to($lg-view-only) {
+    @content
+  }
+}

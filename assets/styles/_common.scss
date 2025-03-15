@@ -1,0 +1,20 @@
+@use './mq';
+@use './font';
+
+:root {
+  --gray: #cecece;
+  --h: 100vh;
+  --gutter: clamp(20px, calc(10px + 2vw), 56px);
+  --radius: 90px;
+
+  // font
+  --ff-serif: #{font.$Marcellus};
+  --ff-mincho: #{font.$YuMincho};
+  --ff-gothic: #{font.$YuGothic};
+  --ff-zenkaku: #{font.$Zenkaku};
+  --ff-num: #{font.$Rubik};
+
+  @include mq.smView {
+    --radius: 40px;
+  }
+}
