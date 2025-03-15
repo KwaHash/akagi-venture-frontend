@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate:bacon": "npx nuxi generate --dotenv ./.envs/.env.bacon",
+    "generate:hutte": "npx nuxi generate  --dotenv ./.envs/.env.hutte",
+    "generate:tonton": "npx nuxi generate  --dotenv ./.envs/.env.tonton",
+    "generate:zawazawa": "npx nuxi generate  --dotenv ./.envs/.env.zawazawa",
+    "generate": "npx nuxi generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.19.1",
+    "@nuxtjs/eslint-config": "^12.0.0",
+    "@nuxtjs/google-fonts": "^3.0.0",
+    "eslint": "^8.34.0",
+    "nuxt": "^3.2.0",
+    "sass": "^1.58.3"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "gsap": "file:gsap-bonus.tgz",
+    "luxon": "^3.4.4",
+    "vuex": "^4.0.2"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "root": true,
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "extends": ["@nuxt/eslint-config"],
+  "rules": {
+    "vue/no-multiple-template-root": "off",
+  },
+}
