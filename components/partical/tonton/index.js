@@ -1,0 +1,10 @@
+export { default as FirstView } from './FirstView';
+export { default as AboutArea } from './AboutArea';
+export { default as NewsArea } from './NewsArea';
+export { default as BlogArea } from './BlogArea';
+export { default as ColumnArea } from './ColumnArea';
+export { default as OutlineArea } from './OutlineArea';
+export { default as HighlightArea } from './HighlightArea';
+export { default as MenuArea } from './MenuArea';
+export { default as WienerArea } from './WienerArea';
+export { default as AccessArea } from './AccessArea';

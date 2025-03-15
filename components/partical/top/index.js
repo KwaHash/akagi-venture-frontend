@@ -1,0 +1,9 @@
+export { default as AboutArea } from './AboutArea';
+export { default as ContactArea } from './ContactArea';
+export { default as FirstView } from './FirstView';
+export { default as HutteHayashiArea } from './HutteHayashiArea';
+export { default as NewsArea } from './NewsArea';
+export { default as BlogArea } from './BlogArea';
+export { default as ColumnArea } from './ColumnArea';
+export { default as PlaceArea } from './PlaceArea';
+export { default as TheFooter } from './TheFooter';
