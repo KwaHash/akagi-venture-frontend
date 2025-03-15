@@ -1,0 +1,9 @@
+export { default as FirstView } from './FirstView';
+export { default as AboutArea } from './AboutArea';
+export { default as NewsArea } from './NewsArea';
+export { default as BlogArea } from './BlogArea';
+export { default as ColumnArea } from './ColumnArea';
+export { default as OutlineArea } from './OutlineArea';
+export { default as ProductsArea } from './ProductsArea';
+export { default as HistoryArea } from './HistoryArea';
+export { default as WhereArea } from './WhereArea';

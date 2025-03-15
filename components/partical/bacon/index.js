@@ -1,0 +1,11 @@
+export { default as FirstView } from './FirstView';
+export { default as AboutArea } from './AboutArea';
+export { default as NewsArea } from './NewsArea';
+export { default as BlogArea } from './BlogArea';
+export { default as ColumnArea } from './ColumnArea';
+export { default as OutlineArea } from './OutlineArea';
+export { default as BBQ1Area } from './BBQ1Area';
+export { default as BBQ2Area } from './BBQ2Area';
+export { default as TakibiArea } from './TakibiArea';
+export { default as CampArea } from './CampArea';
+export { default as AccessArea } from './AccessArea';
